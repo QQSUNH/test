@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--alt+shift+위 나 아래 누르면 한줄 추가 됨-->
+
+
+<body>
+
+    <table border="1">
+        <caption>표1. 비교 데이터</caption>
+        <colgroup> 
+            <!--column 컬럼 열 을 의미-->
+            <!--처음 두개의 열은 빨강으로 지정-->
+            <col span="2" style="background: red;">
+            <!--마지막 하나의 열은 파랑으로 지정-->
+            <col style="background: blue;">
+        </colgroup>
+        <!--태그의 머리 부분 녹색으로 칠함-->
+        <thead style="background: green;">
+            <tr>
+                <th>헤드1</th>
+                <th>헤드2</th>
+                <th>헤드3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>데이터1</td>
+                <td>데이터2</td>
+                <td>데이터3</td>
+            </tr>
+            <tr>
+                <td>data1</td>
+                <td>data2</td>
+                <td>data3</td>
+            </tr>
+        </tbody>
+        <!--태그의 맨 밑 부분을 노랑으로 칠함-->
+        <tfoot style="background: yellow;">
+            <tr>
+                <td>다리1</td>
+                <td>다리2</td>
+                <td>다리3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
