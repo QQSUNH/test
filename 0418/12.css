@@ -1,0 +1,155 @@
+div {
+  height: 5px;
+}
+div:nth-child(37) {
+  background: hsl(10, 100%, 50%);
+}
+div:nth-child(36) {
+  background: hsl(0, 100%, 50%);
+}
+div:nth-child(35) {
+  background: hsl(350, 100%, 50%);
+}
+div:nth-child(34) {
+  background: hsl(340, 100%, 50%);
+}
+div:nth-child(33) {
+  background: hsl(330, 100%, 50%);
+}
+div:nth-child(32) {
+  background: hsl(320, 100%, 50%);
+}
+div:nth-child(31) {
+  background: hsl(310, 100%, 50%);
+}
+div:nth-child(30) {
+  background: hsl(300, 100%, 50%);
+}
+div:nth-child(29) {
+  background: hsl(290, 100%, 50%);
+}
+div:nth-child(28) {
+  background: hsl(280, 100%, 50%);
+}
+div:nth-child(27) {
+  background: hsl(270, 100%, 50%);
+}
+div:nth-child(26) {
+  background: hsl(260, 100%, 50%);
+}
+div:nth-child(25) {
+  background: hsl(250, 100%, 50%);
+}
+div:nth-child(24) {
+  background: hsl(240, 100%, 50%);
+}
+div:nth-child(23) {
+  background: hsl(230, 100%, 50%);
+}
+div:nth-child(22) {
+  background: hsl(220, 100%, 50%);
+}
+div:nth-child(21) {
+  background: hsl(210, 100%, 50%);
+}
+div:nth-child(20) {
+  background: hsl(200, 100%, 50%);
+}
+div:nth-child(19) {
+  background: hsl(190, 100%, 50%);
+}
+div:nth-child(18) {
+  background: hsl(180, 100%, 50%);
+}
+div:nth-child(17) {
+  background: hsl(170, 100%, 50%);
+}
+div:nth-child(16) {
+  background: hsl(160, 100%, 50%);
+}
+div:nth-child(15) {
+  background: hsl(150, 100%, 50%);
+}
+div:nth-child(14) {
+  background: hsl(140, 100%, 50%);
+}
+div:nth-child(13) {
+  background: hsl(130, 100%, 50%);
+}
+div:nth-child(12) {
+  background: hsl(120, 100%, 50%);
+}
+div:nth-child(11) {
+  background: hsl(110, 100%, 50%);
+}
+div:nth-child(10) {
+  background: hsl(100, 100%, 50%);
+}
+div:nth-child(9) {
+  background: hsl(90, 100%, 50%);
+}
+div:nth-child(8) {
+  background: hsl(80, 100%, 50%);
+}
+div:nth-child(7) {
+  background: hsl(70, 100%, 50%);
+}
+div:nth-child(6) {
+  background: hsl(60, 100%, 50%);
+}
+div:nth-child(5) {
+  background: hsl(50, 100%, 50%);
+}
+div:nth-child(4) {
+  background: hsl(40, 100%, 50%);
+}
+div:nth-child(3) {
+  background: hsl(30, 100%, 50%);
+}
+div:nth-child(2) {
+  background: hsl(20, 100%, 50%);
+}
+div:nth-child(1) {
+  background: hsl(10, 100%, 50%);
+}
+/* // 색상 변수 선언
+@color: #FF0000;
+
+// 색상 변수로부터 hue 값을 추출하여 hue 변수에 저장
+@hue : hue(@color);
+
+// 색상 변수로부터 saturation 값을 추출하여 saturation 변수에 저장
+@saturation: saturation(@color);
+
+// 색상 변수로부터 lightness 값을 추출하여 lightness 변수에 저장
+@lightness:lightness(@color);
+
+// div 요소의 높이를 5px로 설정
+div {height: 5px;}
+
+// 반복문을 돌리기 위한 변수 선언
+@iterations:37;
+
+// 반복문 정의 및 재귀적으로 실행하는 믹스인 선언 .rainbow-loop 라는 mixin 정의, @i 변수가 0보다 클 때 실행
+.rainbow-loop(@i) when (@i>0)
+{
+// i번째 div 요소에 배경색을 지정 div 태그 중 @i 번째 요소를 선택해서, 배경색을 hsl 형식으로 설정
+div:nth-child(@{i})
+{
+background: hsl(@hue+((@i)*10),@saturation,@lightness);
+}
+// i값을 하나 감소시켜서 다음 div 요소에 배경색을 지정하도록 재귀적으로 실행
+.rainbow-loop((@i)-1)
+}
+
+// 반복문 실행
+.rainbow-loop(@iterations);
+
+위 코드는 LESS(CSS 전처리기)로 작성된 코드입니다. 코드는 다음과 같은 역할을 합니다.
+
+1. @color 변수를 선언하고, 이 변수에는 빨간색(#FF0000)이 할당됩니다.
+2. @color 변수로부터 색상값(hue), 채도값(saturation), 명도값(lightness)을 추출하여 @hue, @saturation, @lightness 변수에 할당합니다.
+3. div 요소의 높이를 5px로 설정합니다.
+4. @iterations 변수를 선언하고, 이 변수에는 37이 할당됩니다.
+5. .rainbow-loop 믹스인을 정의하고, @i가 0보다 큰 경우, @i번째 div 요소에 배경색을 지정하고 @i값을 하나 감소시켜서 재귀적으로 실행합니다. 이때, 배경색은 @hue+((@i)*10) 값으로 지정됩니다.
+6. .rainbow-loop 믹스인에 @iterations 값을 인수로 전달하여 반복문을 실행합니다.*/
